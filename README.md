@@ -1,0 +1,1 @@
+<h1>Practising JavaScript String methods and testing them with Jest</h1>
