@@ -20,3 +20,7 @@ test('should return the UTF-16 code point for the passed string', () => {
 test('should return a string consisting of concated strings', () => {
   expect(functions.stringConcat('I', 'love', 'you')).toEqual('I love you')
 })
+
+test('should return true or false given a string, a search string, and an optional length value', () => {
+  expect(functions.stringEndsWith('peanutbutterjellytime', 'jelly', 17)).toEqual(true)
+})
