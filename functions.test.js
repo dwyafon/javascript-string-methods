@@ -24,3 +24,7 @@ test('should return a string consisting of concated strings', () => {
 test('should return true or false given a string, a search string, and an optional length value', () => {
   expect(functions.stringEndsWith('peanutbutterjellytime', 'jelly', 17)).toEqual(true)
 })
+
+test('should return a string based on the given UTF-16 code unit', () => {
+  expect(functions.stringFromCharCode(216)).toEqual('Ø')
+})
