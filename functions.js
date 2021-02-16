@@ -6,6 +6,7 @@ const functions = {
     string1.concat(' ', string2, ' ', string3),
   stringEndsWith: (string, searchString, length) => string.endsWith(searchString, length),
   stringFromCharCode: (input) => String.fromCharCode(input),
+  stringFromCodePoint: (input) => String.fromCodePoint(input)
 }
 
 module.exports = functions

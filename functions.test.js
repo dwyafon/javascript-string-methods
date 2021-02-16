@@ -28,3 +28,7 @@ test('should return true or false given a string, a search string, and an option
 test('should return a string based on the given UTF-16 code unit', () => {
   expect(functions.stringFromCharCode(216)).toEqual('Ø')
 })
+
+test('returns a string based on the given code point', () => {
+  expect(functions.stringFromCodePoint(216)).toEqual('Ø')
+})
