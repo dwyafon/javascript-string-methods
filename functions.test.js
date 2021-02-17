@@ -32,3 +32,7 @@ test('should return a string based on the given UTF-16 code unit', () => {
 test('returns a string based on the given code point', () => {
   expect(functions.stringFromCodePoint(216)).toEqual('Ø')
 })
+
+test('returns true when checking for the presence in a given string of another given string', () => {
+  expect(functions.stringIncludes('abcdefg', 'cdef')).toEqual(true)
+})
