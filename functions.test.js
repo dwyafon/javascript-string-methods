@@ -36,3 +36,7 @@ test('returns a string based on the given code point', () => {
 test('returns true when checking for the presence in a given string of another given string', () => {
   expect(functions.stringIncludes('abcdefg', 'cdef')).toEqual(true)
 })
+
+test('returns the index of a substring within the given string', () => {
+  expect(functions.stringIndexOf('Hej Hej', 'Hej')).toEqual(0)
+})

@@ -8,6 +8,7 @@ const functions = {
   stringFromCharCode: (input) => String.fromCharCode(input),
   stringFromCodePoint: (input) => String.fromCodePoint(input),
   stringIncludes: (string1, string2) => string1.includes(string2),
+  stringIndexOf: (string, substr) => string.indexOf(substr),
 }
 
 module.exports = functions
