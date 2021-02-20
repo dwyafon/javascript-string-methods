@@ -40,3 +40,7 @@ test('returns true when checking for the presence in a given string of another g
 test('returns the index of a substring within the given string', () => {
   expect(functions.stringIndexOf('Hej Hej', 'Hej')).toEqual(0)
 })
+
+test('return the index of the last occurence of the substring within the string', () => {
+  expect(functions.stringLastIndexOf('azazazazazazazaaaaaaa', 'z')).toEqual(13)
+})

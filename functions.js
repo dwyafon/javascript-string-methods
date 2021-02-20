@@ -9,6 +9,7 @@ const functions = {
   stringFromCodePoint: (input) => String.fromCodePoint(input),
   stringIncludes: (string1, string2) => string1.includes(string2),
   stringIndexOf: (string, substr) => string.indexOf(substr),
+  stringLastIndexOf: (string, substr) => string.lastIndexOf(substr),
 }
 
 module.exports = functions
